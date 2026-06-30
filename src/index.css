@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+button{
+  cursor: pointer;
+  transition: all ease 0.3s linear;
+}
+
+button:active{
+  scale: 0.97;
+}
+
