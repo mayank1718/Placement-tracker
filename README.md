@@ -1,16 +1,100 @@
-# React + Vite
+# 🚀 Placement Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Placement Tracker application built with **React** and **Vite** to help students organize and manage their job applications in one place. Users can add, edit, delete, search, and track application details through a clean and responsive interface.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 https://mayank1718.github.io/Placement-tracker/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- ➕ Add new placement applications
+- ✏️ Edit existing application details
+- 🗑️ Delete applications
+- 🔍 Search applications instantly
+- 💾 Data persistence using Local Storage
+- 📱 Responsive user interface
+- ⚡ Fast performance with Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Local Storage
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── components/
+ ├── pages/
+ ├── assets/
+ ├── App.jsx
+ ├── main.jsx
+```
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/mayank1718/Placement-tracker.git
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run the development server
+
+```bash
+npm run dev
+```
+
+### Build for production
+
+```bash
+npm run build
+```
+
+---
+
+## 📸 Screenshots
+
+
+
+---
+
+## 🎯 Future Enhancements
+
+- 🌙 Theme Toggle (Dark/Light Mode)
+- 📄 Pagination
+- ✅ Form Validation using React Hook Form
+- 🔃 Filter & Sorting improvements
+- ☁️ Backend Integration
+- 🔐 User Authentication
+
+---
+
+## 👨‍💻 Author
+
+**Mayank Mishra**
+
+GitHub: https://github.com/mayank1718
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
