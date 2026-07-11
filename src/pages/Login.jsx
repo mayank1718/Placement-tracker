@@ -2,7 +2,7 @@ import React from "react";
 
 const Login = () => {
   return (
-    <div className="w-full h-screen flex justify-center items-center text-white font-sans bg-linear-to-t from-indigo-950 via-purple-400 to-black">
+    <div className="w-full h-screen flex justify-center items-center text-white font-sans bg-linear-to-t from-indigo-950 via-purple-600 to-black">
       <div className="h-[60%] w-[25%] border-2 border-white rounded-xl p-3 flex flex-col gap-4">
         <h1 className="flex justify-center mt-6 font-extrabold text-4xl bg-clip-text text-transparent bg-linear-to-r from-black to-white">
           Placment Tracker
