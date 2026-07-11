@@ -13,7 +13,7 @@ const StatsCard = ({
 }) => {
   return (
     <div
-      className={`flex items-center gap-2 p-4 rounded-xl w-55 ${color} border-2 ${borderColor}`}>
+      className={`flex items-center gap-5 lg:gap-2 p-4 rounded-xl md:55 lg:w-55 w-full ${color} border-2 ${borderColor}`}>
       <div> <h3 className={`rounded-full p-3 ${logobg} `}>{logo}</h3> </div>
       <div className="flex flex-col gap-3 ">
         <h3 className={`text-sm font-semibold ${titleColor}`}>{title}</h3>
