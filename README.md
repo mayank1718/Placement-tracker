@@ -4,7 +4,7 @@ A modern Placement Tracker application built with **React** and **Vite** to help
 
 ## 🌐 Live Demo
 
-🔗 https://mayank1718.github.io/Placement-tracker/
+🔗 https://placement-tracker-ten-jade.vercel.app/
 
 ---
 
@@ -73,8 +73,10 @@ npm run build
 ---
 
 ## 📸 Screenshots
-
-
+![Dashboard](<Screenshot 2026-07-12 104749.png>)
+![Add company form](<Screenshot 2026-07-12 104841.png>)
+![Companies table](<Screenshot 2026-07-12 104924.png>)
+![Login page](<Screenshot 2026-07-12 104948.png>)
 
 ---
 
