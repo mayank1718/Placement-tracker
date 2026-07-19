@@ -24,7 +24,7 @@ const Dashboard = () => {
   };
  
   return (
-    <div className="lg:flex-row flex-col">
+    <div className="lg:flex-row flex-colX">
       {showForm && <AddCompanies />}
       <HeroSection formdikhao={handleAddCompany} />
       <div className="flex lg:justify-between justify-center gap-3 w-full flex-wrap lg:px-12 px-2 lg:mt-9 mt-4">

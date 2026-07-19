@@ -13,7 +13,7 @@ const HeroSection = ({formdikhao}) => {
       <div  className="hidden lg:block">
         <button onClick={()=>{
           formdikhao()
-        }} className="px-3 py-2 text-xl cursor-pointer bg-emerald-600 rounded-xl text-white">
+        }} className="px-3 py-2 text-xl cursor-pointer bg-slate-700 rounded-xl text-slate-200 hover:scale-102 hover:shadow-xl hover:shadow-sky-500 duration-300 transition-all hover:text-sky-100 hover:bg-sky-700">
           + Add Company
         </button>
       </div>

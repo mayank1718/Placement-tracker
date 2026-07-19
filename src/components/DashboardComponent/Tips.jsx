@@ -3,9 +3,9 @@ import { RiLightbulbLine, RiCheckboxLine } from "@remixicon/react";
 
 const Tips = () => {
   return (
-    <div className="border-2 border-gray-300 bg-blue-50 p-4 flex justify-between rounded-xl items-center">
+    <div className=" border-2 border-cyan-700 bg-slate-800 p-4 flex justify-between rounded-xl items-center transition-all duration-300 hover:shadow-xl hover:shadow-sky-800 hover:-translate-y-1 hover:scale-102">
       <div className="flex flex-col gap-4">
-        <h2 className="flex gap-1.5 items-center font-bold text-xl tracking-tighter [word-spacing:-2px] text-gray-800">
+        <h2 className="flex gap-1.5 items-center font-bold text-xl tracking-tighter [word-spacing:-2px] text-slate-300">
           {" "}
           <span>
             <RiLightbulbLine size={24} />

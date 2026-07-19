@@ -14,7 +14,7 @@ const ProgressBar = () => {
 
   return (
     <div className="lg:w-[47%] w-full flex flex-col gap-5">
-      <div className="border-2 border-gray-300 p-4 flex flex-col rounded-xl gap-3">
+      <div className=" p-4 flex flex-col rounded-xl gap-3  border-2 border-cyan-700 transition-all duration-300 hover:shadow-xl hover:shadow-sky-800 hover:-translate-y-1 hover:scale-102">
         <h3 className="font-bold font-sans text-2xl">Application Progress</h3>
         <div className="flex items-center gap-2">
           <div className="w-full bg-gray-300 h-4 overflow-hidden rounded-xl">

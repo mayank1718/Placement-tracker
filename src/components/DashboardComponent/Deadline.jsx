@@ -7,8 +7,8 @@ const Deadline = () => {
   const { company } = useContext(Context);
 
   return (
-    <div className="flex flex-col gap-5 border-2 border-gray-300 h-85 rounded-xl lg:w-[25%] overflow-auto">
-      <div className=" border-b-2 border-gray-300">
+    <div className="flex flex-col gap-5 border-2 border-cyan-700 h-85 rounded-xl lg:w-[25%] overflow-auto transition-all duration-300 hover:shadow-xl hover:shadow-sky-800 hover:-translate-y-1 hover:scale-102">
+      <div className=" border-b-2 border-cyan-800">
         <h2 className="font-bold font-sans px-3 py-4 text-xl flex justify-between">
           Upcoming Deadlines{" "}
           <span>
@@ -18,7 +18,7 @@ const Deadline = () => {
       </div>
       <div className="px-3 py-1 flex flex-col gap-2">
         {company.length == 0 ? (
-          <p className="text-2xl text-red-400 font-bold text-center">
+          <p className="text-2xl text-cyan-400 font-bold text-center">
             No Company Added
           </p>
         ) : (
@@ -27,7 +27,9 @@ const Deadline = () => {
               (new Date(item.deadline) - new Date()) / (1000 * 60 * 60 * 24),
             );
             return (
-              <div key={index} className="flex justify-between">
+              <div
+                key={index}
+                className="flex justify-between transition-all duration-300 hover:scale-102 hover:-translate-y-0.5 border-b border-cyan-800 p-2">
                 <div>
                   <h2 className="font-bold text-xl font-sans">
                     {" "}
@@ -42,12 +44,12 @@ const Deadline = () => {
                   className={`px-1 flex items-center py-1 rounded-lg h-fit
                   ${
                     daysLeft < 0
-                      ? "bg-red-100 text-red-700"
+                      ? "bg-red-200 text-red-700"
                       : daysLeft <= 3
-                        ? "bg-red-100 text-red-700"
+                        ? "bg-red-200 text-red-700"
                         : daysLeft <= 10
-                          ? "bg-yellow-100 text-yellow-700"
-                          : "bg-green-100 text-green-700"
+                          ? "bg-yellow-300 text-yellow-700"
+                          : "bg-green-300 text-green-700"
                   }`}>
                   <p className="font-bold font-sans  tracking-tighter [word-spacing:-2px]">
                     {daysLeft >= 0
